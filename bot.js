@@ -17,7 +17,7 @@ var channel = "514368026670530564";//ايدي الروم
 
 client.on('message', message => {
   if (message.author.bot) return;
-  if (!message.content.startsWith('1')) return;
+  if (!message.content.startsWith('2')) return;
 
   let command = message.content.split(" ")[0];
   command = command.slice(prefix.length);
